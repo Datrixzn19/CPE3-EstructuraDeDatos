@@ -1,14 +1,11 @@
 ﻿/*
 
-El estudiante aplicará la teoría de conjuntos y mapas, y resolverá uno de los programas
-propuestos a continuación:
-
 Aplicación para el registro de libros en una biblioteca
 
 */
 
 using System;
-using System.Collections.Generic;
+
 
 class Program
 {
@@ -24,6 +21,7 @@ class Program
         while (true)//va a entrar simpre porque esta en true
         {
             Console.WriteLine("\n****************************\n****************************");
+            Console.WriteLine("Bienvenidos a mi bliblioteca vitual");
             Console.WriteLine("Seleccione una de las opciones");
             Console.WriteLine("1. Agregar un libro");
             Console.WriteLine("2. Eliminar un libro");

@@ -8,3 +8,4 @@
 /home/datrixzn19/Desktop/CPE3-EstructuraDeDatos/cpe/obj/Debug/net9.0/cpe.dll
 /home/datrixzn19/Desktop/CPE3-EstructuraDeDatos/cpe/obj/Debug/net9.0/refint/cpe.dll
 /home/datrixzn19/Desktop/CPE3-EstructuraDeDatos/cpe/obj/Debug/net9.0/cpe.pdb
+/home/datrixzn19/Desktop/CPE3-EstructuraDeDatos/cpe/obj/Debug/net9.0/cpe.sourcelink.json
