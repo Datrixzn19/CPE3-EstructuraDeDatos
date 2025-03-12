@@ -11,8 +11,8 @@ class Program
 {
     static void Main()
     {
-        // Conjunto de libros
-        Dictionary<string, string> libros = new Dictionary<string, string>();
+        
+        Dictionary<string, string> libros = new Dictionary<string, string>();//inicializamos el diccionario
 
         /*
         He visto conveniente hacer un menu, para que el programa sea interactivo
@@ -30,10 +30,13 @@ class Program
             Console.WriteLine("5. Cerrar el programa");
 
             Console.Write("Ingrese su opción: ");
-            var opcion = Console.ReadLine();
+            var opcion = Console.ReadLine();//opcion que usaremos para el switch case
 
             switch (opcion)
             {
+                /*
+                cada opcion llama a la funcion correspondiente que hemos creado 
+                */
                 case "1":
                     AgregarLibro(libros);
                     break;
@@ -49,7 +52,7 @@ class Program
                 case "5":
                 Console.WriteLine("Saliendo del programa...");
                     return;
-                default:
+                default://en caso de que elijamos un numero >5 o pongamos letras 
                     Console.WriteLine("Lo sentimos, la opcion elegina no es valida, intentalo de nuevo.");
                     break;
             }
